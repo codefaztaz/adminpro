@@ -12,6 +12,7 @@ import { PagesComponent } from './pages.component';
 import { Grafica1Component } from './grafica1/grafica1.component';
 import { ProgressComponent } from './progress/progress.component';
 import { SharedModule } from '../shared/shared.module';
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
 
 
 
@@ -22,13 +23,15 @@ import { SharedModule } from '../shared/shared.module';
     ProgressComponent,
     Grafica1Component,
     PagesComponent,
-    DashboardComponent
+    DashboardComponent,
+    AccountSettingsComponent
   ],
   exports: [
     ProgressComponent,
     Grafica1Component,
     PagesComponent,
-    DashboardComponent
+    DashboardComponent,
+    AccountSettingsComponent
 
   ],
   imports: [
